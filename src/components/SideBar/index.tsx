@@ -1,5 +1,7 @@
-import { GenreResponseProps } from "../common/types";
-import { Button } from "./Button";
+import { GenreResponseProps } from "../../common/types";
+import { Button } from "../Button";
+
+import "./styles.scss";
 
 interface SideBarProps {
   genres: GenreResponseProps[];
@@ -7,13 +9,19 @@ interface SideBarProps {
   selectedGenreId: number;
 }
 
-export function SideBar({ genres, handleClickButton, selectedGenreId }: SideBarProps) {
+export function SideBar({
+  genres,
+  handleClickButton,
+  selectedGenreId,
+}: SideBarProps) {
   return (
     <nav className="sidebar">
-      <span>Watch<p>Me</p></span>
+      <span>
+        Watch<p>Me</p>
+      </span>
 
       <div className="buttons-container">
-        {genres.map(genre => (
+        {genres.map((genre) => (
           <Button
             id={String(genre.id)}
             title={genre.title}
@@ -23,7 +31,6 @@ export function SideBar({ genres, handleClickButton, selectedGenreId }: SideBarP
           />
         ))}
       </div>
-
     </nav>
   );
 }
