@@ -8,7 +8,7 @@
 ## 📝 Sobre
 
 <p>
-  Desafio sobre como componentizar uma aplicação referente ao Chapter I. A aplicação se trata de como podemos dividir uma aplicação em componentes afim de isolar as responsabilidades e facilitar a manutenção do código. O app em questão não é o foco, porém é um app que exibe alguns filmes por categoria, contendo rates do filme, banner do filme, duração, e tudo isso através de um arquivo server.json, no qual é uma biblioteca que se chama json-server, afim de disponibilizar dados com características de uma fake REST API. 🔥🚀
+  Desafio 02 - sobre como componentizar uma aplicação referente ao Chapter I. A aplicação se trata de como podemos dividir uma aplicação em componentes afim de isolar as responsabilidades e facilitar a manutenção do código. O app em questão não é o foco, porém é um app que exibe alguns filmes por categoria, contendo rates do filme, banner do filme, duração, e tudo isso através de um arquivo server.json, no qual é uma biblioteca que se chama json-server, afim de disponibilizar dados com características de uma fake REST API. 🔥🚀
 </p>
 
 ---
